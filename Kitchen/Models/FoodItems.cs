@@ -10,8 +10,7 @@ namespace Kitchen.Models
 
         public int ItemID { get; set; }
         public ICollection<Ingredients> Ingredients { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public KitchenEnum.Departments Departments { get; set; }
+       
 
     }
 }
